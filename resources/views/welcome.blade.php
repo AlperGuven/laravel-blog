@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light" data-webp="true>
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,12 +12,18 @@
   <link id="favicon16" rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link id="favicon-manifest" rel="manifest" href="/site.webmanifest">
   <link id="mask-icon" rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap" rel="stylesheet">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
     <title>Alper Guven Laravel Blog</title>
     @vite('resources/js/app.js')
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <app />
+    </div>
 </body>
 </html>

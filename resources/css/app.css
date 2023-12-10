@@ -1,0 +1,60 @@
+body {
+    font-family: 'Teko', sans-serif;
+    background-image: url('../../public/images/bg-pattern.jpeg');
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
+
+footer ul, footer ul li {
+    margin-bottom: 0;
+    padding: 0;
+    color: var(--muted-color);
+    list-style: none;
+}
+
+header {
+    padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+}
+
+button.lined.thick.white {
+    transition: all 0.5s ease;
+    color: #dcdcdc;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 7px var(--secondary);
+}
+
+input {
+    outline: none;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 7px var(--secondary);
+}
+
+h1 {
+    font-family: inherit;
+}
+
+.font-21 {
+    font-size: 1.2rem !important;
+}
+
+.font-18 {
+    font-size: 1rem !important;
+}
+
+.font-16 {
+    font-size: 0.8rem !important;
+}
+
+.font-bold {
+    font-weight: lighter;
+}
+
+.font-thin {
+    font-weight: bold;
+}

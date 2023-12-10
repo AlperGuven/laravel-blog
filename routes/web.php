@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/hello', function() {
+    return response  ('<h1> Hello world </h1>', 200)
+    ->header('Content-type', 'text/html')
+    ->header('foo','bar');
+});
+
+Route::get('blog-post/{id}', function($id) {
+    return response('Post' . $id);
+})-> where('id', '[0-9]+');
